@@ -18,7 +18,7 @@ public class ProductController {
     @Operation(summary = "Get a product with its id")
     public ResponseEntity<String> getProductById(@PathVariable Long id) {
         logger.info("Receive product get request: id = {}", id);
-
+        // TODO add more function to query from database to get a product
         return ResponseEntity.ok().body("coffee");
     }
 

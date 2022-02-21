@@ -1,6 +1,7 @@
 # practice
 This repository is used to practice common commands that might be useful to work with GitHub.
 
+
 ## 1. How to Do Code Review
 * Make changes on local branch
 * Push to remote branch (this might be in a fork of the repo, or the main repo)
